@@ -1,16 +1,17 @@
-
-//Factorial of a Number
+//Print a first N prime number
 #include<iostream>
 using namespace std;
 int main()
 {
     int num;
-cout<<"Enter a number to get it's factorial : ";
-cin>>num;
-int fact=1;
-int i=1;
-for(i;i<=num;i++)
-fact=fact*i;
-cout<<fact;
-return 0;
+    cout<<"Enter a number to check if the number is Prime or not : ";
+    cin>>num;
+    for(int i=2;i<num;i++)
+    {
+        if(num%i==0)
+        cout<<"Number is not prime number";
+        else
+        cout<<"Number is Prime Number";
+    }
+    return 0;
 }
