@@ -30,3 +30,13 @@ int main()
     cout<<i<<"\n";
     return 0;
 }
+
+
+//Print table of any number
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    return 0;
+}
