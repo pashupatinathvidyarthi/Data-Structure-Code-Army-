@@ -91,5 +91,7 @@ int main()
 using namespace std;
 int main()
 {
-    
+    bool b=true;  //t or f is start from small letter
+    cout<<b; 
+    return 0;
 }
