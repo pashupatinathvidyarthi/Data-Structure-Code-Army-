@@ -1,12 +1,9 @@
+//Print numbers from 100 to 200
 #include<iostream>
 using namespace std;
 int main()
 {
-    int num1=45;
-    int num2=46;
-    if(num1>num2)
-    cout<<"The greater number is "<<num1;
-    else
-    cout<<"The greater number is "<<num2;
+    for(int i=100;i<=200;i++)
+    cout<<i<<"\n";
     return 0;
 }
