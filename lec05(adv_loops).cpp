@@ -82,3 +82,8 @@ int main()
     cout<<sum;
     return 0;
 }
+
+
+//Factorial of a Number
+#include<iostream>
+using namespace std;
