@@ -1,19 +1,16 @@
+//Sum of N natural numbers
 #include<iostream>
 using namespace std;
 int main()
 {
     int num;
-    cout<<"Enter to get it's power : ";
+    cout<<"Enter a number to get sum of N Natural number : ";
     cin>>num;
-    int pow;
-    cout<<"Enter a power you want : ";
-    cin>>pow;
-    int n;
-    n=num;
-    for(int i=1;i<pow;i++)
+    int sum=0;
+    for(int i=1;i<=num;i++)
     {
-        num=num*n;
+        sum=sum+i;
     }
-    cout<<num;
+    cout<<sum;
     return 0;
 }
