@@ -67,10 +67,10 @@ int main()
 ------------------------------
             DataTypes
 ------------------------------
-int==interger i.e 1,2,3,4,5....
-float i.e 2.3,4.56,.....
-double
-char
-string
-bool
+int==interger i.e 1,2,3,4,5....     Size=4 bytes
+float i.e 2.3,4.56,.....    Size=4bytes
+double        Size=8 bytes
+char          Size=1byte
+string        Size=1byte
+bool          Size=1byte
 */
