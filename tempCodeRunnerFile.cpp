@@ -1,13 +1,12 @@
-//Print first n natural number
 #include<iostream>
 using namespace std;
 int main()
 {
-    int count;
-    cout<<"Enter number of \"N\" natural number printing :";
-    cin>>count;
-    int i;
-    for(i=1;i<=count;i++)
-    cout<<i<<"\n";
-    return 0;
+    int num1=50;
+    int num2=100;
+    for(num1;num1<=num2;num1++)
+    {
+        if(num1%2==0)
+        cout<<num1<<"\n";
+    }
 }
