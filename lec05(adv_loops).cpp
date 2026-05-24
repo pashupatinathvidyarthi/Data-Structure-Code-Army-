@@ -113,3 +113,10 @@ return 0;
 
 
 //Print a first N prime number
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    return 0;
+}
