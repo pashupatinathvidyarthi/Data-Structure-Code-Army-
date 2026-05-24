@@ -6,7 +6,7 @@ int main()
     return 0;
 }
 
-
+// "<<" This is known as Insertion Operator
 
 #include<iostream>
 using namespace std;
