@@ -12,6 +12,28 @@ int main()
 using namespace std;
 int main()
 {
+    cout<<"Hello";
+    cout<<endl<<"Pashupati Nath";
+    return 0;
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello";
+    cout<<"\nPashupati Nath";
+    return 0;
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
     cout<<2+3;
     return 0;
 }
