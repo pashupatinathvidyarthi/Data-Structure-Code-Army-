@@ -18,3 +18,15 @@ int main()
     cout<<c<<"\n";
     return 0;
 }
+
+
+
+//Print number from 100 to 1 (i.e in reverse order)
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int i=100;i>=1;i--)
+    cout<<i<<"\n";
+    return 0;
+}

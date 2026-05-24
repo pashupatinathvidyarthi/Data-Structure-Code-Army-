@@ -1,9 +1,9 @@
-//Print character from a to z
+//Print number from 100 to 1
 #include<iostream>
 using namespace std;
 int main()
 {
-    for(char c='a';c<='z';c++)
-    cout<<c<<"\n";
+    for(int i=100;i>=1;i--)
+    cout<<i<<"\n";
     return 0;
 }
