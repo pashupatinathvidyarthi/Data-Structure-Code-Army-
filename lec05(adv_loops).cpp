@@ -110,3 +110,6 @@ for(int i=1;i<=num;i++)
 cout<<fact;
 return 0;
 }
+
+
+//Print a first N prime number
