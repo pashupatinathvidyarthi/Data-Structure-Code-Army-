@@ -4,7 +4,9 @@ using namespace std;
 int main()
 {
     for(int i=100;i<=200;i++)
-    cout<<i<<"\n";
+    {
+        cout<<i<<"\n";
+    }
     return 0;
 }
 
@@ -15,7 +17,9 @@ using namespace std;
 int main()
 {
     for(char c='a';c<='z';c++)
-    cout<<c<<"\n";
+    {
+        cout<<c<<"\n";
+    }
     return 0;
 }
 
@@ -27,7 +31,9 @@ using namespace std;
 int main()
 {
     for(int i=100;i>=1;i--)
-    cout<<i<<"\n";
+    {
+        cout<<i<<"\n";
+    }
     return 0;
 }
 
@@ -41,7 +47,9 @@ int main()
     cout<<"Enter a number to get it's table : ";
     cin>>num;
     for(int i=1;i<=10;i++)
-    cout<<num<<"x"<<i<<"="<<num*i<<"\n";
+    {
+        cout<<num<<"x"<<i<<"="<<num*i<<"\n";
+    }
     return 0;
 }
 
@@ -78,7 +86,9 @@ int main()
     cin>>num;
     int sum=0;
     for(int i=1;i<=num;i++)
-    sum=sum+i;
+    {
+        sum=sum+i;
+    }
     cout<<sum;
     return 0;
 }
@@ -87,7 +97,16 @@ int main()
 //Factorial of a Number
 #include<iostream>
 using namespace std;
-int num;
+int main()
+{
+    int num;
 cout<<"Enter a number to get it's factorial : ";
 cin>>num;
-
+int fact=1;
+for(int i=1;i<=num;i++)
+{
+    fact=fact*i;
+}
+cout<<fact;
+return 0;
+}
