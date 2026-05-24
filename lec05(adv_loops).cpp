@@ -87,3 +87,7 @@ int main()
 //Factorial of a Number
 #include<iostream>
 using namespace std;
+int num;
+cout<<"Enter a number to get it's factorial : ";
+cin>>num;
+
