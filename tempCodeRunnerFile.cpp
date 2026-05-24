@@ -1,4 +1,3 @@
-//Print of any number to any power
 #include<iostream>
 using namespace std;
 int main()
@@ -9,8 +8,12 @@ int main()
     int pow;
     cout<<"Enter a power you want : ";
     cin>>pow;
-    for(int i=1;i<=pow;i++)
-    num=num*num;
+    int n;
+    n=num;
+    for(int i=1;i<pow;i++)
+    {
+        num=num*n;
+    }
     cout<<num;
     return 0;
 }
