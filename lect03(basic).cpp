@@ -84,3 +84,12 @@ int main()
     cout<<sizeof(a);
     return 0;
 }
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+}
