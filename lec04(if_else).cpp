@@ -36,3 +36,13 @@ int main()
     }
     return 0;
 }
+
+
+//Print first n natural number
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    return 0;
+}
