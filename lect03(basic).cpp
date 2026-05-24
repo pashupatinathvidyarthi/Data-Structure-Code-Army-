@@ -61,3 +61,16 @@ int main()
             Variables and DataTypes
 --------------------------------------------
 */
+
+
+/*
+------------------------------
+            DataTypes
+------------------------------
+int==interger i.e 1,2,3,4,5....
+float i.e 2.3,4.56,.....
+double
+char
+string
+bool
+*/
