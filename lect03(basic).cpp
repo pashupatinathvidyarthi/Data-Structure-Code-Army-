@@ -102,7 +102,7 @@ int main()
 using namespace std;
 int main()
 {
-    //Variab;e Declare
+    //Variable Declare
     int a=10,b=20,c=30,d,e=11;
     cout<<a+c;
     return 0;
