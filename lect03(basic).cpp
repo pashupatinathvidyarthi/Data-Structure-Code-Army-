@@ -95,3 +95,15 @@ int main()
     cout<<b; 
     return 0;
 }
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    //Variab;e Declare
+    int a=10,b=20,c=30,d,e=11;
+    cout<<a+c;
+    return 0;
+}
