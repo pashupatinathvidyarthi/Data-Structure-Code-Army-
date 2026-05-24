@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    cout<<"Hello";
-    cout<<"\nPashupati Nath";
+    float a=4.5;
+    cout<<sizeof(a);
     return 0;
 }

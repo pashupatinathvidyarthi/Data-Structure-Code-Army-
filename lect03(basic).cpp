@@ -74,3 +74,13 @@ char          Size=1byte
 string        Size=1byte
 bool          Size=1byte
 */
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a=4.5;
+    cout<<sizeof(a);
+    return 0;
+}
