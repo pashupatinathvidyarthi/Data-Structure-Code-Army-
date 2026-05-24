@@ -1,3 +1,9 @@
+/*
+---------------------------------
+            if-else
+---------------------------------
+*/
+
 #include<iostream>
 using namespace std;
 int main()
@@ -9,5 +15,20 @@ int main()
     cout<<"Your input "<<in<<" charaacter is vowel";
     else
     cout<<"Your input "<<in<<" character is not vowel";
+    return 0;
+}
+
+/*
+-------------------------------
+            Loop
+-------------------------------
+*/
+
+//Print Hello 10 times
+#include<iostream>
+using namespace std;
+int main()
+{
+    
     return 0;
 }
