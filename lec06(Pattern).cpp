@@ -278,3 +278,21 @@ int main()
     }
     return 0;
 }
+
+
+
+//Another method of above pattern
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int j=1;j<=5;j++)
+    {
+        for(int i=1;i<=5;i++)
+        {
+            cout<<(j-1)*5+i<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
