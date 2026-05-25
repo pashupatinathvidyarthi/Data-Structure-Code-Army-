@@ -6,8 +6,9 @@ int main()
     {
         for(int i=1;i<=j;i++)
         {
-            cout<<i<<" ";
+            cout<<j<<" ";
         }
         cout<<endl;
     }
+    return 0;
 }
