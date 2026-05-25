@@ -1,9 +1,9 @@
 /*To Print 
-           * * * * *
-           * * * * *
-           * * * * *
-           * * * * *
-           * * * * *
+           10 10 10 10 10
+           10 10 10 10 10
+           10 10 10 10 10
+           10 10 10 10 10
+           10 10 10 10 10
 */
 #include<iostream>
 using namespace std;
@@ -13,7 +13,7 @@ int main()
     {
         for(int i=1;i<=5;i++)
         {
-            cout<<"*"<<" ";
+            cout<<"10"<<" ";
         }
         cout<<endl;
     }
