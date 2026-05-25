@@ -2,12 +2,9 @@
 using namespace std;
 int main()
 {
-    int num=3;
-    int num1=0;
-    for(num;num<=0;num--)
+    for(int i=1;i<=5;i++)
     {
-        num1=num+num1;
+        cout<<"*";
     }
-    cout<<num1;
     return 0;
 }
