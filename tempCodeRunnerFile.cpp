@@ -22,4 +22,5 @@ int main()
         }
         cout<<"Prime";
     }
+    return 0;
 }
