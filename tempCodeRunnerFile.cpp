@@ -2,12 +2,13 @@
 using namespace std;
 int main()
 {
+    int count=1;
     for(int j=1;j<=5;j++)
     {
-        for(char i=1;i<=5;i++)
+        for(int i=1;i<=5;i++)
         {
-            char ch='a'+i-1;
-            cout<<ch<<" ";
+            cout<<count<<" ";
+            count++;
         }
         cout<<endl;
     }
