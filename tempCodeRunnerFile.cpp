@@ -2,25 +2,12 @@
 using namespace std;
 int main()
 {
-    int num;
-    cout<<"Enter a number to check wheather it is Prime or not : ";
-    cin>>num;
-    if(num<2)
+    int num=3;
+    int num1=0;
+    for(num;num<=0;num--)
     {
-        cout<<"Not Prime";
-        return 0;
+        num1=num+num1;
     }
-    else
-    {
-        for(int i=2;i<num;i++)
-        {
-            if(num%i==0)
-            {
-                cout<<"Not Prime";
-                return 0;
-            }
-        }
-        cout<<"Prime";
-    }
+    cout<<num1;
     return 0;
 }
