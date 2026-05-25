@@ -4,11 +4,10 @@ int main()
 {
     for(int j=1;j<=5;j++)
     {
-        for(int i=1;i<=5;i++)
+        for(int i=1;i<=j;i++)
         {
-            cout<<(j-1)*5+i<<" ";
+            cout<<"* ";
         }
         cout<<endl;
     }
-    return 0;
 }
