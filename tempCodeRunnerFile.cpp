@@ -1,9 +1,9 @@
-/*To Print 
-           10 10 10 10 10
-           10 10 10 10 10
-           10 10 10 10 10
-           10 10 10 10 10
-           10 10 10 10 10
+/*To print
+            1 1 1 1 1
+            2 2 2 2 2
+            3 3 3 3 3
+            4 4 4 4 4
+            5 5 5 5 5
 */
 #include<iostream>
 using namespace std;
@@ -13,7 +13,7 @@ int main()
     {
         for(int i=1;i<=5;i++)
         {
-            cout<<"10"<<" ";
+            cout<<i<<" ";
         }
         cout<<endl;
     }
