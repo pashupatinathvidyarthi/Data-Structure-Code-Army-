@@ -6,7 +6,7 @@ int main()
     {
         for(int i=1;i<=j;i++)
         {
-            cout<<"* ";
+            cout<<i<<" ";
         }
         cout<<endl;
     }
