@@ -128,3 +128,15 @@ int main()
     }
     return 0;
 }
+
+
+
+/*To Print
+            1 4 9 16 25
+            1 4 9 16 25
+            1 4 9 16 25
+            1 4 9 16 25
+            1 4 9 16 25
+*/
+#include<iostream>
+using namespace std;
