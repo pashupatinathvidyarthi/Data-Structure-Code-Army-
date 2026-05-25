@@ -176,3 +176,78 @@ int main()
     }
     return 0;
 }
+
+
+//Another Method to solve above pattern
+/*To Print
+            a a a a a
+            b b b b b
+            c c c c c
+            d d d d d
+            e e e e e
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int j=1;j<=5;j++)
+    {
+        char ch='a'+j-1;
+        for(int i=1;i<=5;i++)
+        {
+            cout<<ch<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+
+/*To Print
+            a b c d e
+            a b c d e
+            a b c d e
+            a b c d e
+            a b c d e
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int j=1;j<=5;j++)
+    {
+        for(char i='a';i<='e';i++)
+        {
+            cout<<i<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+
+//Another method to solve above pattern
+/*To Print
+            a b c d e
+            a b c d e
+            a b c d e
+            a b c d e
+            a b c d e
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int j=1;j<=5;j++)
+    {
+        for(char i=1;i<=5;i++)
+        {
+            char ch='a'+i-1;
+            cout<<ch<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
