@@ -1,9 +1,9 @@
 /*To Print
-            5 4 3 2 1
-            5 4 3 2 1
-            5 4 3 2 1
-            5 4 3 2 1
-            5 4 3 2 1
+            1 4 9 16 25
+            1 4 9 16 25
+            1 4 9 16 25
+            1 4 9 16 25
+            1 4 9 16 25
 */
 #include<iostream>
 using namespace std;
@@ -11,9 +11,9 @@ int main()
 {
     for(int j=1;j<=5;j++)
     {
-        for(int i=5;i>=1;i--)
+        for(int i=1;i<=5;i++)
         {
-            cout<<i<<" ";
+            cout<<i*i<<" ";
         }
         cout<<endl;
     }
