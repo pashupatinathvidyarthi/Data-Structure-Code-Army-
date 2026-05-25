@@ -166,5 +166,13 @@ int main()
 using namespace std;
 int main()
 {
-    
+    for(char j='a';j<='d';j++)
+    {
+        for(char i=1;i<=5;i++)
+        {
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
 }
