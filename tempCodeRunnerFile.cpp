@@ -10,7 +10,7 @@ int main()
         }
         for(int col=1;col<=j;col++)
         {
-            cout<<"*";
+            cout<<j;
         }
         cout<<endl;
     }
