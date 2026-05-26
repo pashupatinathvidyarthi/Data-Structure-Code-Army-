@@ -66,3 +66,27 @@ int main()
     }
     return 0;
 }
+
+
+
+/*To Print
+            1
+            2 1
+            3 2 1 
+            4 3 2 1
+            5 4 3 2 1
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int j=1;j<=5;j++)
+    {
+        for(int i=1;i<=j;i++)
+        {
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
