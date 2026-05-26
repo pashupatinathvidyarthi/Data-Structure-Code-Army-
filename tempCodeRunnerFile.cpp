@@ -4,7 +4,7 @@ int main()
 {
     for(char j='a';j<='e';j++)
     {
-        for(int i=j;i>=j;i++)
+        for(int i='a';i<=j;i++)
         {
             cout<<j<<" ";
         }
