@@ -6,11 +6,12 @@ int main()
     {
         for(int i=1;i<=5-j;i++)
         {
-            cout<<"  ";        
+            cout<<"  ";
         }
-        for(int i=1;i<=j;i++)
+        for(int col=1;col<=j;col++)
         {
-            cout<<i<<" ";
+            char name='A'+col-1;
+            cout<<name<<" ";
         }
         cout<<endl;
     }

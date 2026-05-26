@@ -96,5 +96,41 @@ int main()
 using namespace std;
 int main()
 {
-    
+    for(int j=1;j<=5;j++)
+    {
+        for(int i=1;i<=5-j;i++)
+        {
+            cout<<"  ";
+        }
+        for(char ch='A';ch<='A'+j-1;ch++)
+        {
+            cout<<ch<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+
+
+//Another for above Pattern
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int j=1;j<=5;j++)
+    {
+        for(int i=1;i<=5-j;i++)
+        {
+            cout<<"  ";
+        }
+        for(int col=1;col<=j;col++)
+        {
+            char name='A'+col-1;
+            cout<<name<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
 }
