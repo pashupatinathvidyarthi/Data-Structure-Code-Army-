@@ -90,3 +90,28 @@ int main()
     }
     return 0;
 }
+
+
+
+
+/*To Print
+            a
+            b b
+            c c c
+            d d d d
+            e e e e e
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(char j='a';j<='e';j++)
+    {
+        for(int i=j;i>=j;i++)
+        {
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}

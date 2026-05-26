@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    for(int j=1;j<=5;j++)
+    for(char j='a';j<='e';j++)
     {
-        for(int i=j;i>=1;i--)
+        for(int i=j;i>=j;i++)
         {
-            cout<<i<<" ";
+            cout<<j<<" ";
         }
         cout<<endl;
     }
