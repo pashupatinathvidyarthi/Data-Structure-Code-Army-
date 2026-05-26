@@ -6,11 +6,11 @@ int main()
     {
         for(int i=1;i<=5-j;i++)
         {
-            cout<<" ";
+            cout<<"  ";        
         }
-        for(int col=1;col<=j;col++)
+        for(int i=1;i<=j;i++)
         {
-            cout<<j;
+            cout<<i<<" ";
         }
         cout<<endl;
     }
