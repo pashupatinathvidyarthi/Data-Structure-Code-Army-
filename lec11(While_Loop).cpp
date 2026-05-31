@@ -50,3 +50,8 @@ int main()
     }
     return 0;
 }
+
+
+//do-while loop
+
+//Print number from 1 to 10
