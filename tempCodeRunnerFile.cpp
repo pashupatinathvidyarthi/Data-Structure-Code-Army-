@@ -1,14 +1,19 @@
-//To print table of 8
+//To Print factors of any number
 #include<iostream>
 using namespace std;
 int main()
 {
-    int i=8;
-    int j=1;
-    while(j<=10)
+    int num;
+    cout<<"Enter a number to get it's factors : ";
+    cin>>num;
+    int fact=num;
+    while(fact<=num)
     {
-        cout<<i<<" * "<<j<<" = "<<i*j<<endl;
-        j++;
+        if(num%fact==0)
+        {
+            cout<<fact<<" ";
+        }
+        fact--;
     }
     return 0;
 }
