@@ -11,3 +11,6 @@ int main()
     }
     return 0;
 }
+
+
+//To print table of 8
