@@ -27,3 +27,6 @@ int main()
     }
     return 0;
 }
+
+
+//To Print factors of any number
