@@ -1,19 +1,12 @@
-//To Print factors of any number
+//Print number from 1 to 10
 #include<iostream>
 using namespace std;
 int main()
 {
-    int num;
-    cout<<"Enter a number to get it's factors : ";
-    cin>>num;
-    int fact=num;
-    while(fact<=num)
-    {
-        if(num%fact==0)
-        {
-            cout<<fact<<" ";
-        }
-        fact--;
-    }
+    int i=1;
+    do{
+        cout<<i<<" ";
+        i++;
+    }while(i<=10);
     return 0;
 }
