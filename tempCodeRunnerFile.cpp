@@ -1,23 +1,13 @@
+//To print number from 1 to 10
 #include<iostream>
 using namespace std;
 int main()
 {
-    int i,j;
-    for(j=1;j<=5;j++)
+    int i=1;
+    while(i<=10)
     {
-        for(i=1;i<=5-j;i++)
-        {
-            cout<<"  ";
-        }
-        for(i=1;i<=j;i++)
-        {
-            cout<<i<<" ";
-        }
-        for(i=j-1;i>=1;i--)
-        {
-            cout<<i<<" ";
-        }
-        cout<<endl;
+        cout<<i<<" ";
+        i++;
     }
     return 0;
 }
