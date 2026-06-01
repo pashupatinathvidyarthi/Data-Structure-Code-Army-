@@ -1,23 +1,20 @@
+//To convert decimal to binary
 #include<iostream>
+#include<cmath>
 using namespace std;
 int main()
 {
-    int i;
-    cout<<"Enter a number : ";
-    cin>>i;
-
-    switch(i)
+    int num=13;
+    int rem;
+    int ans=0;
+    int mul=1;
+    while(num>=0)
     {
-        case 1:
-        cout<<"Rohit";
-        break;
-
-        case 2:
-        cout<<"Mohit";
-        break;
-
-        default:
-        cout<<"Sohit";
+        rem=num%2;
+        num=num/2;
+        ans=rem*mul+ans;
+        mul=mul*10;
     }
+    cout<<ans;
     return 0;
 }
