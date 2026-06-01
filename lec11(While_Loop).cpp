@@ -84,3 +84,7 @@ int main()
     cout<<sum;
     return 0;
 }
+
+
+
+// break and continue
