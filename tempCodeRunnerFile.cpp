@@ -1,22 +1,16 @@
-//To convert decimal to binary
 #include<iostream>
 using namespace std;
 int main()
 {
-    int num;
-    cout<<"Enter a decimal number to get it's binary : ";
-    cin>>num;
-    int number=num;
-    int rem;
-    int ans=0;
-    int mul=1;
+    int num=1101;
+    int ans=0,rem,mul=1;
     while(num>0)
     {
-        rem=num&1;
-        num=num>>1;
+        rem=num%10;
+        num=num/10;
         ans=rem*mul+ans;
-        mul=mul*10;
+        mul=mul*2;
     }
-    cout<<"Binary of "<<number<<" is : "<<ans;
+    cout<<ans;
     return 0;
 }
