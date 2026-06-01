@@ -7,7 +7,7 @@ int main()
     int rem;
     int ans=0;
     int mul=1;
-    while(num>=0)
+    while(num>0)
     {
         rem=num%2;
         num=num/2;
