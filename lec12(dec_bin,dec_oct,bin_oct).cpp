@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int num=13;
+    int num=2;
     int rem;
     int ans=0;
     int mul=1;
