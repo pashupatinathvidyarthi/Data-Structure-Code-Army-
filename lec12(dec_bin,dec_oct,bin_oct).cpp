@@ -3,7 +3,10 @@
 using namespace std;
 int main()
 {
-    int num=2;
+    int num;
+    cout<<"Enter a decimal number to get it's binary : ";
+    cin>>num;
+    int number=num;
     int rem;
     int ans=0;
     int mul=1;
@@ -14,6 +17,6 @@ int main()
         ans=rem*mul+ans;
         mul=mul*10;
     }
-    cout<<ans;
+    cout<<"Binary of "<<number<<" is : "<<ans;
     return 0;
 }
