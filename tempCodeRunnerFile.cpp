@@ -2,13 +2,22 @@
 using namespace std;
 int main()
 {
-    //Continue
-    for(int i=1;i<=10;i++)
-    {
-        if(i==4)
-        continue;
+    int i;
+    cout<<"Enter a number : ";
+    cin>>i;
 
-        cout<<i<<" ";
+    switch(i)
+    {
+        case 1:
+        cout<<"Rohit";
+        break;
+
+        case 2:
+        cout<<"Mohit";
+        break;
+
+        default:
+        cout<<"Sohit";
     }
     return 0;
 }
