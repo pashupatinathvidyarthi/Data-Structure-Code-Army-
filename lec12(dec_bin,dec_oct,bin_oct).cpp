@@ -45,3 +45,7 @@ int main()
     cout<<"Binary of "<<number<<" is : "<<ans;
     return 0;
 }
+
+
+
+//To Convert Binary to Decimal
