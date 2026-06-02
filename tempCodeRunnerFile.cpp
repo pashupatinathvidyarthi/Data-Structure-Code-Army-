@@ -1,15 +1,19 @@
 #include<iostream>
 using namespace std;
-void add()
+
+//Function Definition
+void add(int num1,int num2)
 {
-    int a,b,c;
-    cout<<"Enter two number : ";
-    cin>>a>>b;
-    c=a+b;
-    cout<<"Sum is "<<c;
+    int num3=num1+num2;
+    cout<<"Sum is :"<<num3;
 }
 
+void add(int,int);
 int main()
 {
-    add();
+    int a,b;
+    cout<<"Enter two number : ";
+    cin>>a>>b;
+    add(a,b);
+    return 0;
 }
