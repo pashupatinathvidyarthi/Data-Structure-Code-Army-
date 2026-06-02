@@ -83,5 +83,38 @@ functionName()
     ............
         ............
 }
-        
+
+-> Function names must be unique in a program.
+->Function definition vs Function Call
+
+Function definition
+
+f1()
+{
+    cout<<"Hello";
+    cout<<"I am a function";
+}
+
+
+
+
+
+Function Call
+
+{
+    ----------------
+        ---------------
+    ----------------
+        ---------------
+    f1();
+    ----------------
+        ---------------
+    ----------------
+        ---------------
+}
+
+->Function is a way to implement modularization.
+->Modularization is splitting up of a bigger task into several smaller sub-taks
+to reduce the complexity of a problem.
+->You can compile a C file without having main() function 
 */
