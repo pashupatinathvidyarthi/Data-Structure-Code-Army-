@@ -124,4 +124,16 @@ to reduce the complexity of a problem.
 Functions are of two types:-
 1. Predefined Functions
 2. User defined Functions
+->No Keyword is a Function
+*/
+
+
+/*
+Rules of a Function
+
+->You can define function in any order.
+->Execution of program always begin from main() function.
+->Function executes only when it is called.
+->Operating System calls main() function, we do not need to call main() function
+->
 */
