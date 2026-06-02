@@ -32,3 +32,8 @@ return_types
 //Prime Number Function
 #include<iostream>
 using namespace std;
+
+bool Prime(int num)
+{
+    
+}
