@@ -118,3 +118,10 @@ Function Call
 to reduce the complexity of a problem.
 ->You can compile a C file without having main() function 
 */
+
+
+/*
+Functions are of two types:-
+1. Predefined Functions
+2. User defined Functions
+*/
