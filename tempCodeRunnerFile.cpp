@@ -1,25 +1,15 @@
 #include<iostream>
 using namespace std;
-
-bool Prime(int num)
+void add()
 {
-    if(num<2)
-    return 0;
-
-    for(int i=2;i<num;i++)
-    {
-        if(num%i==0)
-        return 0;
-    }
-    return 1;
+    int a,b,c;
+    cout<<"Enter two number : ";
+    cin>>a>>b;
+    c=a+b;
+    cout<<"Sum is "<<c;
 }
-
-
 
 int main()
 {
-    int num;
-    cout<<"Enter a number to check it is prime or not : ";
-    cin>>num;
-    return(num);
+    add();
 }
