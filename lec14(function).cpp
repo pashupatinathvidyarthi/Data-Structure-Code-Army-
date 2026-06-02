@@ -135,5 +135,17 @@ Rules of a Function
 ->Execution of program always begin from main() function.
 ->Function executes only when it is called.
 ->Operating System calls main() function, we do not need to call main() function
-->
+*/
+
+
+
+/*
+-------------------------------------------------            
+            Ways to define a Function
+-------------------------------------------------
+1. Takes Nothing, Return Nothing
+2. Take Something, Return Nothing
+3. Take Nothing, Return Something
+4. Take Something, Return Something
+
 */
