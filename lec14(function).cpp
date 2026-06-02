@@ -48,16 +48,8 @@ bool Prime(int num)
 
 
 
-int main()
-{
-    int num;
-    cout<<"Enter a number to check it is prime or not : ";
-    cin>>num;
-    return(num);
-}
 
-
-
+//Factorial Function
 int fact(int num1)
 {
     if(num1==0)
@@ -69,5 +61,10 @@ int fact(int num1)
     {
         num1=num1*i;
     }
-    cout<<num1;
+    return num1;
 }
+
+
+
+
+//MySirG (Topic : Function)
