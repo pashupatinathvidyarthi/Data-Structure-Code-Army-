@@ -1,22 +1,21 @@
+//TSRS
 #include<iostream>
 using namespace std;
-
-
-//Function Declaration
-int add()
-{
-    int a,b,c;
-    cout<<"Enter two number : ";
-    cin>>a>>b;
-    c=a+b;
-    return c;
-}
-
-int add();
+int add(int,int);
 int main()
 {
-    int k;
-    k=add();
-    cout<<"Sum is "<<k;
+    int a,b;
+    cout<<"Enter two number : ";
+    cin>>a>>b;
+    int c;
+    c=add(a,b);
+    cout<<"Sum is "<<c;
     return 0;
+}
+
+
+int add(int m,int n)
+{
+    int k=m+n;
+    return k;
 }
