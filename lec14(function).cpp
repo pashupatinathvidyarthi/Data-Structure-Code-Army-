@@ -46,7 +46,19 @@ bool Prime(int num)
     return 1;
 }
 
+
+
 int main()
+{
+    int num;
+    cout<<"Enter a number to check it is prime or not : ";
+    cin>>num;
+    return(num);
+}
+
+
+
+int fact(int num1)
 {
     
 }
