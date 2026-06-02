@@ -188,12 +188,43 @@ void add(int num1,int num2)
     cout<<"Sum is :"<<num3;
 }
 
-void add(int,int);
+void add(int,int); //Function Declaration
 int main()
 {
     int a,b;
     cout<<"Enter two number : ";
     cin>>a>>b;
-    add(a,b);
+    add(a,b); //Function Call
     return 0;
 }
+
+
+
+
+
+//TNRS
+#include<iostream>
+using namespace std;
+int add();
+int main()
+{
+    int k;
+    k=add();
+    cout<<"Sum is "<<k;
+    return 0;
+}
+
+//Function Declaration
+int add()
+{
+    int a,b,c;
+    cout<<"Enter two number : ";
+    cin>>a>>b;
+    c=a+b;
+    return c;  //We can return only single value
+}
+
+
+
+
+//TSRS

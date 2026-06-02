@@ -1,19 +1,22 @@
 #include<iostream>
 using namespace std;
 
-//Function Definition
-void add(int num1,int num2)
-{
-    int num3=num1+num2;
-    cout<<"Sum is :"<<num3;
-}
 
-void add(int,int);
-int main()
+//Function Declaration
+int add()
 {
-    int a,b;
+    int a,b,c;
     cout<<"Enter two number : ";
     cin>>a>>b;
-    add(a,b);
+    c=a+b;
+    return c;
+}
+
+int add();
+int main()
+{
+    int k;
+    k=add();
+    cout<<"Sum is "<<k;
     return 0;
 }
