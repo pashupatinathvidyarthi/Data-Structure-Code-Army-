@@ -243,7 +243,7 @@ int main()
     cout<<"Enter two number : ";
     cin>>a>>b;
     int c;
-    c=add(a,b);
+    c=add(a,b);  //Function call by passing value or Call by Value
     cout<<"Sum is "<<c;
     return 0;
 }
