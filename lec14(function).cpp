@@ -60,5 +60,14 @@ int main()
 
 int fact(int num1)
 {
-    
+    if(num1==0)
+    {
+        cout<<"1";
+    }
+
+    for(int i=1;i<=num1;i++)
+    {
+        num1=num1*i;
+    }
+    cout<<num1;
 }
