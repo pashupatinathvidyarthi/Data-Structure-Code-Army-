@@ -29,3 +29,6 @@ return_types
 
 
 
+//Prime Number Function
+#include<iostream>
+using namespace std;
