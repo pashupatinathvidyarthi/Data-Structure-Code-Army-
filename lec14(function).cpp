@@ -35,5 +35,8 @@ using namespace std;
 
 bool Prime(int num)
 {
-    
+    if(num<2)
+    return 0;
+
+    for(i)
 }
