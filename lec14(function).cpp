@@ -151,9 +151,12 @@ Rules of a Function
 */
 
 
+
 // TNRN
 #include<iostream>
 using namespace std;
+
+//Function Definition
 void add()
 {
     int a,b,c;
@@ -163,6 +166,7 @@ void add()
     cout<<"Sum is "<<c;
 }
 
+void add(); //Function Declaration
 int main()
 {
     add();
