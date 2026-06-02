@@ -68,3 +68,20 @@ int fact(int num1)
 
 
 //MySirG (Topic : Function)
+
+/*
+->Function is a basic building block of a C++ Program
+->Function is a block of code, which has some name for identification
+->A c++ program can have any number of functions
+
+
+functionName()
+{
+    //Some code.....
+    ............
+        ............
+    ............
+        ............
+}
+        
+*/
