@@ -16,3 +16,7 @@ char chan(char a)
     a=a-'a'+'A';
     return(a);
 }
+
+
+
+//Armstrong Number
