@@ -1,19 +1,21 @@
 #include<iostream>
 using namespace std;
-
-void f1()
-{
-    int a;
-    cout<<"Enter a number : ";
-    cin>>a;
-    if(a>0)
-        f1();
-    cout<<a;
-}
-
-void f1();
+int fact(int);
 int main()
 {
-    f1();
+    int n;
+    cout<<"Enter a number to get it's factorial : ";
+    cin>>n;
+    int l;
+    l=fact(n);
+    cout<<"Factorial is "<<l;
     return 0;
+}
+
+int fact(int k)
+{
+    if(k==0)
+    return 1;
+
+    return(fact(k*fact(k-1))); 
 }
