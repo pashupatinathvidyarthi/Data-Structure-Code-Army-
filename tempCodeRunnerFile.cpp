@@ -1,21 +1,20 @@
 #include<iostream>
 using namespace std;
-void nat(int);
+void swap(int &,int &);
 int main()
 {
-    int num;
-    cout<<"Enter a number to get first N natural number : ";
-    cin>>num;
-    nat(num);
+    int a,b;
+    cout<<"Enter two number to swap : ";
+    cin>>a>>b;
+    swap(a,b);
+    cout<<a<<" "<<b;
     return 0;
 }
 
-void nat(int k)
+void swap(int &m,int &n)
 {
-    if(k>0)
-    {
-        nat(k-1);
-        cout<<k;
-        cout<<" ";
-    }
+    int l;
+    l=m;
+    m=n;
+    n=l;
 }
