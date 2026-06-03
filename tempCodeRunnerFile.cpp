@@ -1,30 +1,17 @@
 #include<iostream>
 using namespace std;
-void Swap(int &,int &);
-void Swap(float &, float &);
+char chan(char);
 int main()
 {
-    int a=3,b=5;
-    Swap(a,b);
-    cout<<a<<" "<<b<<endl;
-    float k=3.5,j=56.4;
-    Swap(k,j);
-    cout<<k<<" "<<j;
+    char ch;
+    cout<<"Enter a character to chabge : ";
+    cin>>ch;
+    cout<<chan(ch);
     return 0;
 }
 
-void Swap(int &m,int &n)
+char chan(char a)
 {
-    int l;
-    l=m;
-    m=n;
-    n=l;
-}
-
-void Swap(float &c,float &d)
-{
-    int e;
-    e=c;
-    c=d;
-    d=e;
+    a=a-'a'+'A';
+    return(a);
 }
