@@ -299,6 +299,8 @@ void f1()
         Step01: int sum(int n)
                   {
 
-                  }  
+                  }
+                
+                 sum(n) 1+2+3+4+......+n 
         Step02: 
         */
