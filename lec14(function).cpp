@@ -294,4 +294,11 @@ void f1()
 
 //How to approach a recurssive problems ??
 
-//
+//Write a recursive function to calculate sum of first n natural number.
+        /*
+        Step01: int sum(int n)
+                  {
+
+                  }  
+        Step02: 
+        */
