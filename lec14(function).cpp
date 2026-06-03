@@ -306,5 +306,5 @@ void f1()
         
         Step02: n+sum(n-1) 1+2+3+4+......+(n-1)
 
-        Step03: 
+        Step03: n==1 return(1)
         */
