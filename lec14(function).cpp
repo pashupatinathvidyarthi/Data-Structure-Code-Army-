@@ -320,8 +320,8 @@ void f1()
         */
 
 
-//Write a recursive function to calculate factorial of n
 
+//Write a recursive function to calculate factorial of n
 #include<iostream>
 using namespace std;
 int fact(int);
@@ -341,5 +341,10 @@ int fact(int k)
     if(k==0)
     return 1;
 
-    return(fact(k*fact(k-1))); 
+    return(k*fact(k-1)); 
 }
+
+
+
+
+//Write a recursive ffunction to print first n natural number
