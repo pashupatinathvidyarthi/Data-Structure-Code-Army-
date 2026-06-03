@@ -264,5 +264,7 @@ int add(int m,int n)
 -------------------------------
             Recursion
 -------------------------------
-
+->Function calling itself is called recursion.
+->A recursion method solves a problem by calling a copy of itself to work on a smaller problem
+->It is important to ensure that the recursion terminates.
 */
