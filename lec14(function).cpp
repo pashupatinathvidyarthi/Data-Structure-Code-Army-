@@ -362,5 +362,10 @@ int main()
 
 void nat(int k)
 {
-    cout<<nat(k-1);
+    if(k>0)
+    {
+        nat(k-1);
+        cout<<k;
+        cout<<" ";
+    }
 }

@@ -1,21 +1,21 @@
 #include<iostream>
 using namespace std;
-int fact(int);
+void nat(int);
 int main()
 {
-    int n;
-    cout<<"Enter a number to get it's factorial : ";
-    cin>>n;
-    int l;
-    l=fact(n);
-    cout<<"Factorial is "<<l;
+    int num;
+    cout<<"Enter a number to get first N natural number : ";
+    cin>>num;
+    nat(num);
     return 0;
 }
 
-int fact(int k)
+void nat(int k)
 {
-    if(k==0)
-    return 1;
-
-    return(k*fact(k-1)); 
+    if(k>0)
+    {
+        nat(k-1);
+        cout<<k;
+        cout<<" ";
+    }
 }
