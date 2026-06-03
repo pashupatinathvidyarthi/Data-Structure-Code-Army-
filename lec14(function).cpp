@@ -348,3 +348,19 @@ int fact(int k)
 
 
 //Write a recursive ffunction to print first n natural number
+#include<iostream>
+using namespace std;
+void nat(int);
+int main()
+{
+    int num;
+    cout<<"Enter a number to get first N natural number : ";
+    cin>>num;
+    nat(num);
+    return 0;
+}
+
+void nat(int k)
+{
+    cout<<nat(k-1);
+}
