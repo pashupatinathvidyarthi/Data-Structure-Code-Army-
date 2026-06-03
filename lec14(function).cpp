@@ -369,3 +369,5 @@ void nat(int k)
         cout<<" ";
     }
 }
+
+
