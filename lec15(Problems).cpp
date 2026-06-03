@@ -5,5 +5,7 @@ char chan(char);
 int main()
 {
     char ch;
-    cout<<"Enter a character to chabge "
+    cout<<"Enter a character to chabge : ";
+    cin>>ch;
+    
 }
