@@ -307,4 +307,17 @@ void f1()
         Step02: n+sum(n-1) 1+2+3+4+......+(n-1)
 
         Step03: n==1 return(1)
+
+
+
+
+        int sum(int n)
+        {
+            if(n==1)
+                return 1;
+            return (n+sum(n-1));
+        }
         */
+
+
+//Write a recursive function to calculate factorial of n
