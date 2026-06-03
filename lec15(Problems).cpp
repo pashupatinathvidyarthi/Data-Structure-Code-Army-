@@ -68,3 +68,7 @@ int arm(int e,int g)
     }
     return ar;
 }
+
+
+
+//Find Trailling Zeroes in Factorial
