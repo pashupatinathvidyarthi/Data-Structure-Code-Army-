@@ -1,21 +1,19 @@
-//TSRS
 #include<iostream>
 using namespace std;
-int add(int,int);
-int main()
+
+void f1()
 {
-    int a,b;
-    cout<<"Enter two number : ";
-    cin>>a>>b;
-    int c;
-    c=add(a,b);
-    cout<<"Sum is "<<c;
-    return 0;
+    int a;
+    cout<<"Enter a number : ";
+    cin>>a;
+    if(a>0)
+        f1();
+    cout<<a;
 }
 
-
-int add(int m,int n)
+void f1();
+int main()
 {
-    int k=m+n;
-    return k;
+    f1();
+    return 0;
 }

@@ -208,17 +208,17 @@ int main()
 //TNRS
 #include<iostream>
 using namespace std;
-int add();
+int add1();
 int main()
 {
     int k;
-    k=add();
+    k=add1();
     cout<<"Sum is "<<k;
     return 0;
 }
 
 //Function Declaration
-int add()
+int add1()
 {
     int a,b,c;
     cout<<"Enter two number : ";
@@ -236,20 +236,20 @@ int add()
 //TSRS
 #include<iostream>
 using namespace std;
-int add(int,int);
+int add2(int,int);
 int main()
 {
     int a,b;
     cout<<"Enter two number : ";
     cin>>a>>b;
     int c;
-    c=add(a,b);  //Function call by passing value or Call by Value
+    c=add2(a,b);  //Function call by passing value or Call by Value
     cout<<"Sum is "<<c;
     return 0;
 }
 
 
-int add(int m,int n)
+int add2(int m,int n)
 {
     int k=m+n;
     return k;
@@ -268,3 +268,27 @@ int add(int m,int n)
 ->A recursion method solves a problem by calling a copy of itself to work on a smaller problem
 ->It is important to ensure that the recursion terminates.
 */
+
+
+//Back-tracking is done in recurson
+
+#include<iostream>
+using namespace std;
+void f1();
+int main()
+{
+    f1();
+    return 0;
+}
+
+void f1()
+{
+    int a;
+    cout<<"Enter a number : ";
+    cin>>a;
+    if(a>0)
+        f1();
+    cout<<a;
+}
+
+
