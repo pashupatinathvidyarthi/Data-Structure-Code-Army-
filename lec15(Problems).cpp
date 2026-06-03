@@ -72,3 +72,37 @@ int arm(int e,int g)
 
 
 //Find Trailling Zeroes in Factorial
+// User function Template for C++
+//In this we have to count number of factors of 5 in a given number
+class Solution {
+  public:
+    int trailingZeroes(int n) {
+        int count=0;
+        while(n>=5)
+        {
+            n=n/5;
+            count+=n;
+        }
+        return count;
+    }
+};
+
+
+
+
+//To check given dimension form rectangle or not
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d;
+    cout<<"Enter dimension to check wheather it form rectangle or not : ";
+    cin>>a>>b>>c>>d;
+    if((a==b && c==0) || (a==c && b==d) || (a==d && b==c))
+    cout<<"It form a rectangle";
+    else
+    cout<<"It did not form rectangle";
+    return 0;
+}
+
+
