@@ -27,3 +27,9 @@ int main()
 // int a[]; Error can't be empty
 
 // int a[5]; -> Natural numbers  -> Toatl number of variables in array -> Not an index
+
+
+int a[5]={1,2,3,4,5}; // we can initialize array during declaration
+
+//You can initialize an array during declaration with lesser values than the size of an array
+//And remaining variables in array will contain 0 and not garbage value.
