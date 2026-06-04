@@ -45,3 +45,6 @@ int a[5]={1,2,3,4,5}; // we can initialize array during declaration
 -> By default for numbers sorting means arranging elements in ascending order.
 
 */
+
+
+//Function Call by Passing an Array
