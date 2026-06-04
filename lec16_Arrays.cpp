@@ -18,7 +18,7 @@ int main()
     {
         sum=sum+a[i];
     }
-    avg=sum/10;
+    avg=sum/10.0;
     cout<<"Average is : "<<avg;
     return 0;
 }
