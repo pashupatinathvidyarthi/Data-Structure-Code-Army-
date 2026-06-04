@@ -22,3 +22,8 @@ int main()
     cout<<"Average is : "<<avg;
     return 0;
 }
+
+
+// int a[]; Error can't be empty
+
+// int a[5]; -> Natural numbers  -> Toatl number of variables in array -> Not an index
