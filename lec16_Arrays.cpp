@@ -38,3 +38,10 @@ int a[5]={1,2,3,4,5}; // we can initialize array during declaration
 
 
 
+//Sorting
+/*
+-> Arranging elements in some logical order is known as sorting.
+
+-> By default for numbers sorting means arranging elements in ascending order.
+
+*/
