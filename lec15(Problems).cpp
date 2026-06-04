@@ -108,3 +108,7 @@ int main()
 
 
 //Bishop
+
+
+
+//Nim Game
