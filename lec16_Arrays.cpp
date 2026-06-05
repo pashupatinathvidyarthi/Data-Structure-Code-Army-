@@ -64,14 +64,12 @@ void funarr(int b[],int n)
 {
     int i;
     cout<<"Enter "<<n<<"numbers : ";
+
     for(i=0;i<n;i++)
-    {
-        cin>>b[i];
-    }
+    cin>>b[i];
+
     for(i=0;i<n;i++)
-    {
-        cout<<b[i];
-    }
+    cout<<b[i];
 }
 
 
