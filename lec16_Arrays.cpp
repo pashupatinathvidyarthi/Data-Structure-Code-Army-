@@ -52,6 +52,7 @@ int a[5]={1,2,3,4,5}; // we can initialize array during declaration
 //Function Call by Passing an Array
 #include<iostream>
 using namespace std;
+void funarr(int [],int);
 int main()
 {
     int a[10];
@@ -66,6 +67,10 @@ void funarr(int b[],int n)
     for(i=0;i<n;i++)
     {
         cin>>b[i];
+    }
+    for(i=0;i<n;i++)
+    {
+        cout<<b[i];
     }
 }
 

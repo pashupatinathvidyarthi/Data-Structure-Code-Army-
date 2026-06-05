@@ -1,49 +1,23 @@
-//Armstrong Number
 #include<iostream>
-#include<cmath>
 using namespace std;
-int digi(int);
-int arm(int,int);
+void funarr(int [],int);
 int main()
 {
-    int num;
-    cout<<"Enter a number to check wheather a number is armstrong or not : ";
-    cin>>num;
-    int dig=digi(num);
-    int num1=arm(num,dig);
-    if(num1==num)
-        cout<<"Armstrong";
-    else
-        cout<<"Not Armstrong";
+    int a[10];
+    funarr(a,10);
     return 0;
 }
 
-
-int digi(int d)
+void funarr(int b[],int n)
 {
-    int count=0;
-    while(d>0)
+    int i;
+    cout<<"Enter "<<n<<"numbers : ";
+    for(i=0;i<n;i++)
     {
-        d=d/10;
-        count++;
+        cin>>b[i];
     }
-    return(count);
-}
-
-
-int arm(int e,int g)
-{
-    int f;
-    int ar=0;
-    while(e>0)
+    for(i=0;i<n;i++)
     {
-
-        f=e%10;
-        int power = 1;
-        for (int i = 0; i < g; i++)   // integer pow: f^g
-            power=power*f;
-        ar=ar+power;
-        e=e/10;
+        cout<<b[i];
     }
-    return ar;
 }
