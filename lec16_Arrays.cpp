@@ -80,3 +80,39 @@ void funarr(int b[],int n)
 int a[6]; //One dimensional array
 
 int b[2][3]; //Two dimensional array
+
+
+//Find minimum value in an Array
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[5]={5,674,34,34,2};
+    int ans=INT_Max;
+    for(int i=0;i<5;i++)
+    {
+        if(ans>arr[i])
+        ans=arr[i];
+    }
+    cout<<ans;
+    return 0;
+}
+
+
+
+
+//Find maximum value in an Array
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[5]={5,674,34,34,2};
+    int ans=INT_Min;
+    for(int i=0;i<5;i++)
+    {
+        if(ans<arr[i])
+        ans=arr[i];
+    }
+    cout<<ans;
+    return 0;
+}

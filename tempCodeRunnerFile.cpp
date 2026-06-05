@@ -1,23 +1,14 @@
 #include<iostream>
 using namespace std;
-void funarr(int [],int);
 int main()
 {
-    int a[10];
-    funarr(a,10);
+    int arr[5]={5,674,34,34,2};
+    int ans;
+    for(int i=0;i<5;i++)
+    {
+        if(ans>arr[i])
+        ans=arr[i];
+    }
+    cout<<ans;
     return 0;
-}
-
-void funarr(int b[],int n)
-{
-    int i;
-    cout<<"Enter "<<n<<"numbers : ";
-    for(i=0;i<n;i++)
-    {
-        cin>>b[i];
-    }
-    for(i=0;i<n;i++)
-    {
-        cout<<b[i];
-    }
 }
