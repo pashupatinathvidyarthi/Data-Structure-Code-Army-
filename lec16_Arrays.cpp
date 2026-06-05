@@ -76,4 +76,9 @@ void funarr(int b[],int n)
 
 
 
+
+
 //Two Dimensional Arrys
+int a[6]; //One dimensional array
+
+int b[2][3]; //Two dimensional array
