@@ -68,3 +68,7 @@ void funarr(int b[],int n)
         cin>>b[i];
     }
 }
+
+
+
+//Two Dimensional Arrys
