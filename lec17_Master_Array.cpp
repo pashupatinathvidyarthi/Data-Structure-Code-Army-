@@ -13,7 +13,7 @@ int main()
         if(num==arr[i])
         {
             cout<<"Yes Present";
-            return 1;
+            break;
         }
     }
 
