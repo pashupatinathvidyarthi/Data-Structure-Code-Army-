@@ -2,24 +2,13 @@
 using namespace std;
 int main()
 {
-    int ans=INT8_MIN;
-    int arr[5]={45,6,7,23,56};
-
-    //Largest element
+    int arr[5]={1,2,4,5};
+    int sum=0;
     for(int i=0;i<5;i++)
-    {
-        if(ans<arr[i])
-        ans=arr[i];
-    }
+    sum=sum+arr[i];
 
-    int second=INT8_MIN;
-
-    for(int i=0;i<5;i++)
-    {
-        if(arr[i]!=ans)
-        second=max(second,arr[i]);
-    }
-    cout<<"Second largest element is "<<second;
-
+    int ans=5*(5+1)/2;
+    
+    cout<<"Missing Number : "<<ans-sum;
     return 0;
 }
