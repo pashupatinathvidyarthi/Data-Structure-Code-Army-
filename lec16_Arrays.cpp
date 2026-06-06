@@ -100,7 +100,7 @@ using namespace std;
 int main()
 {
     int arr[5]={5,674,34,34,2};
-    int ans=INT_Max;
+    int ans= INT8_MAX;
     for(int i=0;i<5;i++)
     {
         if(ans>arr[i])
@@ -119,7 +119,7 @@ using namespace std;
 int main()
 {
     int arr[5]={5,674,34,34,2};
-    int ans=INT_Min;
+    int ans=INT8_MIN;
     for(int i=0;i<5;i++)
     {
         if(ans<arr[i])
