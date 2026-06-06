@@ -16,5 +16,15 @@ int main()
             break;
         }
     }
+}
 
+
+
+
+//Reverse an Array
+#include<iostream>
+using namespace std;
+int main()
+{
+    
 }
