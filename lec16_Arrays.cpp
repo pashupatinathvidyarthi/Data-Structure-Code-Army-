@@ -82,6 +82,18 @@ int a[6]; //One dimensional array
 int b[2][3]; //Two dimensional array
 
 
+
+
+//Find size of an array
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[6]={34,5,6,7,88,8};
+    cout<<"Size of an array "<<sizeof(arr)/sizeof(arr[0]);
+    return 0;
+}
+
 //Find minimum value in an Array
 #include<iostream>
 using namespace std;
@@ -116,3 +128,4 @@ int main()
     cout<<ans;
     return 0;
 }
+

@@ -1,14 +1,9 @@
+//Find size of an array
 #include<iostream>
 using namespace std;
 int main()
 {
-    int arr[5]={5,674,34,34,2};
-    int ans;
-    for(int i=0;i<5;i++)
-    {
-        if(ans>arr[i])
-        ans=arr[i];
-    }
-    cout<<ans;
+    int arr[6]={34,5,6,7,88};
+    cout<<"Size of an array "<<sizeof(arr)/sizeof(arr[0]);
     return 0;
 }
