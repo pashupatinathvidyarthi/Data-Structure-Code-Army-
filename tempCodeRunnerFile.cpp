@@ -1,23 +1,19 @@
+//Another method to Reverse an Array
 #include<iostream>
 using namespace std;
 int main()
 {
-    int arr1[5]={4,5,6,7,5};
-    int arr2[5];
-    int j=0;
-    for(int i=4;i>=0;i--)
+    int arr[5]={1,2,3,4,5};
+    int start=0, end=4;
+
+    while(start<end)
     {
-        arr2[j]=arr1[i];
-        j++;
-    }
+        swap(arr[start],arr[end]);
+        start++;
+        end--;
+    };
+    
     for(int i=0;i<5;i++)
-    {
-        arr1[i]=arr2[j];
-        j++;
-    }
-    for(int i=0;i<5;i++)
-    {
-        cout<<arr1[i];
-    }  
-    return 0; 
+    cout<<arr[i]<<" ";
+    return 0;
 }
