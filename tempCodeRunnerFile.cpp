@@ -1,19 +1,25 @@
-//Another method to Reverse an Array
 #include<iostream>
 using namespace std;
 int main()
 {
-    int arr[5]={1,2,3,4,5};
-    int start=0, end=4;
+    int ans=INT8_MIN;
+    int arr[5]={45,6,7,23,56};
 
-    while(start<end)
-    {
-        swap(arr[start],arr[end]);
-        start++;
-        end--;
-    };
-    
+    //Largest element
     for(int i=0;i<5;i++)
-    cout<<arr[i]<<" ";
+    {
+        if(ans<arr[i])
+        ans=arr[i];
+    }
+
+    int second=INT8_MIN;
+
+    for(int i=0;i<5;i++)
+    {
+        if(arr[i]!=ans)
+        second=max(second,arr[i]);
+    }
+    cout<<"Second largest element is "<<second;
+
     return 0;
 }
