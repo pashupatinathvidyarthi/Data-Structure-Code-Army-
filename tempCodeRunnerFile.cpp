@@ -1,14 +1,21 @@
+//Fibonacci Series
 #include<iostream>
 using namespace std;
 int main()
 {
-    int arr[5]={1,2,4,5};
-    int sum=0;
-    for(int i=0;i<5;i++)
-    sum=sum+arr[i];
+    int n;
+    cout<<"Enter a number : ";
+    cin>>n;
+    int arr[1000];
+    //first=0
+    //second=1
 
-    int ans=5*(5+1)/2;
-    
-    cout<<"Missing Number : "<<ans-sum;
+    arr[0]=0;
+    arr[1]=1;
+
+    for(int i=2;i<=n; i++)
+    arr[i]=arr[i-1]+arr[i-2];
+
+    cout<<arr[n-1];
     return 0;
 }
