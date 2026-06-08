@@ -1,21 +1,25 @@
-//Fibonacci Series
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
+int main() 
 {
     int n;
-    cout<<"Enter a number : ";
-    cin>>n;
-    int arr[1000];
-    //first=0
-    //second=1
-
-    arr[0]=0;
-    arr[1]=1;
-
-    for(int i=2;i<=n; i++)
-    arr[i]=arr[i-1]+arr[i-2];
-
-    cout<<arr[n-1];
+    cout << "Enter size: ";
+    cin >> n;
+    for (int i = n; i >= 1; i--) 
+    {
+        for (int j = 1; j <= i; j++) 
+        {
+            cout << "*";
+        }
+        for (int j = 1; j <= 2 * (n - i); j++) 
+        {
+            cout << " ";
+        }
+        for (int j = 1; j <= i; j++) 
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
     return 0;
 }
