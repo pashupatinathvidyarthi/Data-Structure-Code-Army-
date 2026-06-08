@@ -1,0 +1,7 @@
+/*
+---------------------------------------
+            Time Complexity
+---------------------------------------
+It is the total time taken by an algorithm to run as a function of 
+length of the input
+*/
